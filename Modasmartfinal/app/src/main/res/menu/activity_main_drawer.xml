@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/inicio_24"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_carrito"
+            android:icon="@drawable/carrito_24"
+            android:title="@string/menu_carrito" />
+        <item
+            android:id="@+id/nav_cuenta"
+            android:icon="@drawable/user_24"
+            android:title="@string/menu_cuenta" />
+        <item
+            android:id="@+id/nav_reciclar"
+            android:icon="@drawable/reciclar_24"
+            android:title="@string/menu_reciclar" />
+    </group>
+</menu>

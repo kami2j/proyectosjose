@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="394dp"
+        android:layout_height="160dp"
+        android:background="@drawable/borde_boton"
+        android:backgroundTint="#DDD1C9"
+        android:focusable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
+
+    <Button
+        android:id="@+id/buttonComprar"
+        android:layout_width="334dp"
+        android:layout_height="59dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="@color/teal_700"
+        android:text="Confirmar compra"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.879" />
+
+
+    <Button
+        android:id="@+id/buttonPuntos"
+        android:layout_width="186dp"
+        android:layout_height="40dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="@color/black"
+        android:text="Utilizar Puntos"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/carritoRV"
+        android:layout_width="408dp"
+        android:layout_height="567dp"
+        android:padding="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:listitem="@layout/lista_carrito" />
+
+    <TextView
+        android:id="@+id/TotalPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total: $0.00"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonComprar"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toEndOf="@+id/buttonPuntos"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.371" />
+
+    <TextView
+        android:id="@+id/totalPuntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tus Puntos: 0"
+        app:layout_constraintBottom_toTopOf="@+id/buttonComprar"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

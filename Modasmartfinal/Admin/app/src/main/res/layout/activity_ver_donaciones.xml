@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ReciclajeDetalles">
+
+    <TextView
+        android:id="@+id/recNombre"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:color="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/recCorreo"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Correo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recNombre" />
+
+    <TextView
+        android:id="@+id/recCantidad"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Cantidad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recCorreo" />
+
+    <TextView
+        android:id="@+id/recTelefono"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:hint="Teléfono"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recCantidad" />
+
+
+
+    <Button
+        android:id="@+id/btnPuntos"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/botones"
+        android:backgroundTint="@color/divider_grey"
+        android:text="Asignar Puntos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmpColor" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

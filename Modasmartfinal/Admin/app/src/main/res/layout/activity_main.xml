@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnInsertData"
+        android:layout_width="270dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/botones"
+        android:backgroundTint="@color/divider_grey"
+        android:text="Añadir Producto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btnFetchData"
+        android:layout_width="270dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/botones"
+        android:backgroundTint="@color/divider_grey"
+        android:text="Visualizar Productos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnInsertData" />
+
+    <Button
+        android:id="@+id/btnFetchUser"
+        android:layout_width="270dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/botones"
+        android:backgroundTint="@color/divider_grey"
+        android:text="Cambiar Puntos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFetchData" />
+
+    <Button
+        android:id="@+id/btnVerDonaciones"
+        android:layout_width="270dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/botones"
+        android:backgroundTint="@color/divider_grey"
+        android:text="Ver Donaciones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFetchData" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="315dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoadmin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

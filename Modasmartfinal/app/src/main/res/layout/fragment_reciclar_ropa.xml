@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="345dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/boton_semicuadrado"
+        android:backgroundTint="#DDD1C9"
+        android:justificationMode="inter_word"
+        android:padding="5dp"
+        android:text="Mediante nuestra tienda puedes donar ropa que no vayas a necesitar
+para que siga en circulación en base al remendado. Así no se desperdicia y genera contaminación.
+Además puedes ganar puntos que puedes canjear. Puedes enviar tu ropa a la casilla portal 1111 de
+Correos de Chile, sucursal Rancagua Centro."
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="345dp"
+        android:layout_height="506dp"
+        android:background="@drawable/boton_semicuadrado"
+        android:backgroundTint="#DDD1C9"
+        android:justificationMode="inter_word"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="126dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Nombre Completo: "
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.050" />
+
+    <EditText
+        android:id="@+id/donNombre"
+        android:layout_width="168dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.050"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="126dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="N° de Celular: +56"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.200" />
+
+    <EditText
+        android:id="@+id/donNCelular"
+        android:layout_width="168dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text=""
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.200"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="126dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Correo Electrónico: "
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.350" />
+
+    <TextView
+        android:id="@+id/donCorreo"
+        android:layout_width="168dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.350"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="126dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="N° de Prendas: "
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.500" />
+
+    <TextView
+        android:id="@+id/donCantidad"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.731"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.500" />
+
+    <Button
+        android:id="@+id/buttonEnviar"
+        android:layout_width="168dp"
+        android:layout_height="50dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#089cb4"
+        android:text="Validar Envío"
+        app:layout_constraintBottom_toBottomOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.916" />
+
+    <Button
+        android:id="@+id/buttonResta"
+        android:layout_width="55dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:text="-"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEnviar"
+        app:layout_constraintEnd_toStartOf="@+id/donCantidad"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toEndOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/donCorreo"
+        app:layout_constraintVertical_bias="0.113" />
+
+    <Button
+        android:id="@+id/buttonSuma"
+        android:layout_width="55dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:text="+"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEnviar"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintStart_toEndOf="@+id/donCantidad"
+        app:layout_constraintTop_toBottomOf="@+id/donCorreo"
+        app:layout_constraintVertical_bias="0.113" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Max. 10 prendas)"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEnviar"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.779"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/donCantidad"
+        app:layout_constraintVertical_bias="0.039" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

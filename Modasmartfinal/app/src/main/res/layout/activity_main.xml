@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#089cb4">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="390dp"
+        android:layout_height="545dp"
+        android:background="@drawable/borde_boton"
+        android:backgroundTint="#DDD1C9"
+        android:focusable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="191dp"
+        android:layout_height="191dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.935" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/user_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <Button
+        android:id="@+id/buttonRegistrarse"
+        android:layout_width="331dp"
+        android:layout_height="66dp"
+        android:background="@drawable/borde_boton"
+        android:backgroundTint="#3F51B5"
+        android:text="Deseo crear una cuenta"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.736" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="249dp"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:text="¡Bienvenido!"
+        android:focusable="false"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.274" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="284dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:text="¿Qué desea hacer?"
+        android:focusable="false"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.366" />
+
+    <Button
+        android:id="@+id/buttonSinCuenta"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:background="@drawable/borde_boton"
+        android:backgroundTint="#DDD1C9"
+        android:text="Continuar sin cuenta"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRegistrarse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.972" />
+
+    <Button
+        android:id="@+id/buttonIniciarSesion"
+        android:layout_width="218dp"
+        android:layout_height="51dp"
+        android:background="@drawable/borde_boton"
+        android:backgroundTint="@color/white"
+        android:text="Ya tengo una cuenta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.863" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

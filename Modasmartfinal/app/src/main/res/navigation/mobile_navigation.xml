@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.modasmart.modasmartfinal.ui.inicio.InicioFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_reciclar"
+            app:destination="@id/nav_reciclar" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_carrito"
+        android:name="com.modasmart.modasmartfinal.ui.carrito.CarritoFragment"
+        android:label="@string/menu_carrito"
+        tools:layout="@layout/fragment_carrito"/>
+    <fragment
+        android:id="@+id/nav_cuenta"
+        android:name="com.modasmart.modasmartfinal.ui.cuenta.CuentaFragment"
+        android:label="@string/menu_cuenta"
+        tools:layout="@layout/fragment_cuenta">
+        <action
+            android:id="@+id/action_nav_cuenta_to_nav_reciclar"
+            app:destination="@id/nav_reciclar" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_reciclar"
+        android:name="com.modasmart.modasmartfinal.ui.reciclarropa.ReciclarRopaFragment"
+        android:label="@string/menu_reciclar"
+        tools:layout="@layout/fragment_reciclar_ropa"/>
+</navigation>

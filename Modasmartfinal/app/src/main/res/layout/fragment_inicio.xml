@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.inicio.InicioFragment">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="354dp"
+        android:layout_height="234dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#B5B0AD"
+        android:focusable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="128dp"
+        android:layout_height="205dp"
+        android:src="@drawable/ropa"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.444" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="192dp"
+        android:layout_height="42dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Obtén Puntos reciclando tu ropa que ya no uses."
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.157"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="195dp"
+        android:layout_height="105dp"
+        android:text="Envianos tu ropa que ya no uses para recibir puntos que puedes canjear por descuentos."
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        android:justificationMode="inter_word"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.658" />
+
+    <Button
+        android:id="@+id/buttonOfertas"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#089cb4"
+        android:visibility="invisible"
+        android:text="Ofertas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.124" />
+
+    <Button
+        android:id="@+id/buttonRemendados"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#089cb4"
+        android:visibility="invisible"
+        android:text="Remendados"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.124" />
+
+    <ImageButton
+        android:id="@+id/buttonDeportiva"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#DDD1C9"
+        android:contentDescription="Deportiva"
+        android:src="@drawable/deportiva"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="75dp"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="Deportiva"
+        android:focusable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <ImageButton
+        android:id="@+id/buttonPolera"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#DDD1C9"
+        android:contentDescription="Poleras"
+        android:src="@drawable/polera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.364"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="75dp"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="Poleras"
+        android:focusable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <ImageButton
+        android:id="@+id/buttonCamisa"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#DDD1C9"
+        android:contentDescription="Pantalones"
+        android:src="@drawable/camisa1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.632"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="75dp"
+        android:layout_height="26dp"
+        android:text="Camisas"
+        android:focusable="false"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <ImageButton
+        android:id="@+id/buttonPantalon"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#DDD1C9"
+        android:contentDescription="Pantalones"
+        android:src="@drawable/pantalones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="78dp"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="Pantalones"
+        android:focusable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <ImageButton
+        android:id="@+id/buttonVestido"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#DDD1C9"
+        android:contentDescription="Vestidos y Faldas"
+        android:src="@drawable/vestido"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="79dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:text="Vestidos y faldas"
+        android:focusable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <ImageButton
+        android:id="@+id/buttonAccesorio"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#DDD1C9"
+        android:contentDescription="Accesorios"
+        android:src="@drawable/accesorio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="78dp"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="Accesorios"
+        android:focusable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.789" />
+
+    <ImageButton
+        android:id="@+id/buttonInterior"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#DDD1C9"
+        android:contentDescription="Ropa Interior"
+        android:src="@drawable/interior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="80dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:text="Ropa Interior"
+        android:focusable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <ImageButton
+        android:id="@+id/buttonCalzado"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#DDD1C9"
+        android:contentDescription="Calzado"
+        android:src="@drawable/zapatillas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.364"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="78dp"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="Calzado"
+        android:focusable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOfertas"
+        app:layout_constraintVertical_bias="0.789" />
+
+    <Button
+        android:id="@+id/buttonReciclar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondeado"
+        android:text="Enviar Ropa -->"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.913" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

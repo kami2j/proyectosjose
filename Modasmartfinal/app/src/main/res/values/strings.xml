@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Moda Smart</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Yea perdone</string>
+    <string name="nav_header_subtitle">kamehameha@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Favoritos</string>
+    <string name="menu_slideshow">Más</string>
+    <string name="menu_carrito">Carrito de compras</string>
+    <string name="menu_cuenta">Mi Cuenta</string>
+    <string name="menu_reciclar">Reciclar Ropa</string>
+    <string name="menu_ayuda">Ayuda</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_iniciar_sesion">Iniciar_Sesion</string>
+
+
+    <string name="Nombre">Ingresar Nombre</string>
+    <string name="mail">Ingresar Correo</string>
+    <string name="Contrasena">Ingresar Contraseña</string>
+    <string name="Inicio_Sesion">Iniciar Sesión</string>
+    <string name="R_Usuario">Recordar Usuario</string>
+    <string name="Icono_Usuario">Icono de usuario</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="no_contrasena">No recuerdo mi contraseña</string>
+    <string name="PreguntaContra">¿Olvidaste tu contraseña?</string>
+    <string name="RecuMail">Recuperar por correo</string>
+    <string name="RecuMailEnviar">Enviar correo de recuperación</string>
+    <string name="RecuLlamada">Recuperar por llamada</string>
+    <string name="RecuLlamadaRenviar">Volver a llamar</string>
+    <string name="RecLlamadaEnviar">Volver a llamar</string>
+    <string name="RecuSMS">Recuperar por mensaje</string>
+    <string name="RecuSMSEnviar">Re-enviar mensaje</string>
+    <string name="IngresarCodigo">Ingresar Codigo</string>
+    <string name="textoRecuperarmail">Necesitamos que ingreses el correo de tu cuenta para enviar la recuperation de contraseña</string>
+    <string name="textoRecuperarSMS">Hemos enviado un Mensaje de recuperacción al numero +56 9 42** ***</string>
+    <string name="textoRecuperarLlamada">Recibiras una llamada de recuperacción al numero +56 9 42** ***</string>
+    <string name="title_activity_recuperar_contrasena">RecuperarContrasena</string>
+    <string name="title_activity_sms">SMS</string>
+    <string name="title_activity_llamada">Llamada</string>
+    <string name="title_activity_mail">Mail</string>
+    <string name="title_activity_tyc">Terminos y Condiciones</string>
+    <string name="title_activity_registrar">Registrar</string>
+
+    <string name="prefs_file">com.modasmart.modasmartfinal.PREFERENCE_FILE_KEY</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="Terminos">
+Términos y Condiciones de Uso de la Aplicación "Moda Smart"
+
+Fecha de entrada en vigencia: 29-11-2023
+
+Paso 1: Identificación de la Aplicación
+
+Bienvenido a "Moda Smart", tu compañero de moda inteligente. Somos una aplicación móvil dedicada a ofrecerte una experiencia única en el mundo de la moda. Al utilizar nuestra aplicación, podrás explorar tendencias, recibir recomendaciones personalizadas y realizar compras de manera intuitiva. A continuación, detallamos los términos que rigen tu interacción con "Moda Smart".
+
+Paso 2: Reglas Básicas para el Uso de la Aplicación
+
+2.1. Registro y Cuenta de Usuario:
+- La aplicación está destinada a usuarios mayores de 18 años.
+- Proporciona información precisa durante el registro para garantizar una experiencia personalizada.
+- Eres el único responsable de mantener la confidencialidad de tu cuenta y contraseña.
+
+2.2. Uso Adecuado:
+- Utiliza la aplicación de manera ética y legal.
+- Se prohíbe cualquier actividad que pueda dañar, deshabilitar o afectar negativamente nuestra plataforma.
+- Respeta los derechos de propiedad intelectual de "Moda Smart" y de terceros.
+
+2.3. Contenido Generado por el Usuario:
+- Publica contenido que cumpla con estándares éticos; no se permite contenido difamatorio, obsceno o ilegal.
+- Reconoces que "Moda Smart" puede utilizar y mostrar el contenido generado por el usuario dentro de la aplicación.
+
+Paso 3: Reglas de Envío y Pago
+
+3.1. Envío:
+- Los plazos de entrega están sujetos a condiciones logísticas y geográficas.
+- Nos esforzamos por enviar los productos de manera oportuna, pero no garantizamos plazos exactos.
+
+3.2. Pago:
+- Aceptamos pagos a través de métodos seguros y confiables.
+- Al realizar una compra, aceptas abonar el precio total indicado, incluidos impuestos y gastos de envío aplicables.
+
+3.3. Devoluciones y Reembolsos:
+- Consulta nuestra política de devoluciones para obtener detalles sobre cómo devolver productos y solicitar reembolsos.
+
+Estos términos y condiciones están sujetos a modificaciones periódicas. Te instamos a revisar regularmente los términos para estar al tanto de cualquier actualización. "Moda Smart" se reserva el derecho de suspender o cancelar tu cuenta en caso de violación de estos términos.
+
+Agradecemos tu elección de "Moda Smart". Esperamos que disfrutes de una experiencia de compra inteligente y a la moda. ¡Gracias por ser parte de nuestra comunidad!
+    </string>
+</resources>

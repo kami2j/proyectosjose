@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Producto">
+
+
+    <Button
+        android:id="@+id/buttonComprar"
+        android:layout_width="250dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/boton_semicuadrado"
+        android:gravity="center"
+        android:text="Agregar al carrito"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Descripcion"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/buttonTallas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_semicuadrado"
+        android:gravity="center"
+        android:text="Tallas"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonComprar"
+        app:layout_constraintEnd_toStartOf="@+id/Color"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toEndOf="@+id/Precio"
+        app:layout_constraintTop_toBottomOf="@+id/Descripcion"
+        app:layout_constraintVertical_bias="0.453" />
+
+    <TextView
+        android:id="@+id/Color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Color"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Descripcion"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <TextView
+        android:id="@+id/Precio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Precio"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Color"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Descripcion"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="297dp"
+        android:layout_height="302dp"
+        android:layout_marginBottom="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Nombre"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/foto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/Descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Descripcion"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foto" />
+
+    <TextView
+        android:id="@+id/Categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Categoria"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/foto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/Id"
+        app:layout_constraintTop_toBottomOf="@+id/Nombre" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

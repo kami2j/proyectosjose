@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".InsertionActivity">
+
+    <EditText
+        android:id="@+id/etEmpNombre"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Ingrese el nombre de la prenda"
+        android:color="@color/black"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etEmpDescripcion"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Ingrese la descripción"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmpNombre" />
+
+    <EditText
+        android:id="@+id/etEmpCategoria"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Ingrese Categoria"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmpDescripcion" />
+
+    <EditText
+        android:id="@+id/etEmpColor"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="92dp"
+        android:ems="10"
+        android:hint="Ingrese Color"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmpDescripcion" />
+
+    <EditText
+        android:id="@+id/etEmpPrecio"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="152dp"
+        android:ems="10"
+        android:hint="Ingrese Precio"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmpDescripcion" />
+
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/botones"
+        android:backgroundTint="@color/divider_grey"
+        android:text="Ingresar Productor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmpPrecio" />
+
+    <Button
+        android:id="@+id/SubirIMG"
+        android:layout_width="145dp"
+        android:layout_height="69dp"
+        android:background="@drawable/botones"
+        android:backgroundTint="@color/divider_grey"
+        android:text="Añadir Imagen"
+        android:onClick="insertIMG"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821" />
+
+    <ImageView
+        android:id="@+id/imageViewuwu"
+        android:layout_width="206dp"
+        android:layout_height="191dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
